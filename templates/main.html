@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>疫情监控</title>
+  <link rel="stylesheet" href="../static/css/main.css">
+  <script src="../static/js/jquery-1.12.4.js"></script>
+  <script src="../static/js/echarts.min.js"></script>
+  <script src="../static/js/echarts-wordcloud.js"></script>
+  <script src="../static/js/china.js"></script>
+</head>
+<body>
+  <div>
+    <div id="header">
+      <h1>全国疫情实时追踪</h1>
+      <span class="showTime"></span>
+    </div>
+    <div id="content">
+      <div class="column">
+        <div class="panel line1">
+          <div class="chart"></div>
+        </div>
+        <div class="panel line2">
+          <div class="chart"></div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="no">
+          <div class="no-num">
+            <ul>
+              <li>4561</li>
+              <li>1252</li>
+              <li>89845</li>
+              <li>12354</li>
+            </ul>
+          </div>
+          <div class="no-title">
+            <ul>
+              <li>累计确诊</li>
+              <li>剩余疑似</li>
+              <li>累计治愈</li>
+              <li>累计死亡</li>
+            </ul>
+          </div>
+        </div>
+        <div class="map">
+          <div class="chart"></div>
+
+        </div>
+      </div>
+      <div class="column">
+        <div class="panel bar">
+          <div class="chart"></div>
+        </div>
+        <div class="panel cloud">
+          <div class="chart"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="../static/js/main.js"></script>
+  <script src="../static/js/cov_map.js"></script>
+  <script src="../static/js/cov_left_top.js"></script>
+  <script src="../static/js/cov_left_bottom.js"></script>
+  <script src="../static/js/cov_right.js"></script>
+  <script src="../static/js/cov_cloud.js"></script>
+</body>
+</html>
